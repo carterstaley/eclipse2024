@@ -1,0 +1,23 @@
+/*
+  Eclipse 2024
+  
+  Author: Carter Staley
+  Date: 12/13/20
+  Filename: bstyles.css
+  Supporting Files:
+  
+*/
+
+
+/* Table Styles */
+
+table{
+	width: 100%;
+}
+
+th{
+	background-color: #3c6e71;
+	color: white;
+}
+
+

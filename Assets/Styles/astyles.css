@@ -1,0 +1,23 @@
+/*
+  Eclipse 2024
+  
+  Author: Carter Staley
+  Date: 12/13/20
+  Filename: astyles.css
+  Supporting Files: me.jpg
+*/
+
+
+/*Image Styles*/
+
+.textwrap {
+	float: right;
+	margin: 10px 0px 10px 10px;
+	width: auto;
+	overflow: auto;
+	width: 230px;
+	display: table-row;
+	clear: right;
+
+}
+

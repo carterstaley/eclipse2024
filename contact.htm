@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <!--
+  
+    Eclipse 2024
+	Author: Carter Staley
+	Date: 12/13/20
+	
+	Filename:  contact.htm
+	Supporting files: formresults.js, cstyles.css, main.css
+  -->
+  
+    <meta charset="UTF-8" />
+	
+	<title>Contact Us</title>
+	
+	<link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+	<link href="Assets/Styles/cstyles.css" rel="stylesheet" type="text/css" />
+    <script src="Assets/JavaScript/formresults.js"></script>
+  </head>
+  
+  <body>
+    <header>
+	  <nav>
+	    <ul>
+		  <li><a href="index.htm">Home</a></li>
+		  <li><a href="locations.htm">Best Viewing Locations</a></li>
+		  <li><a href="bring.htm">What to Bring</a></li>
+		  <li><a href="about.htm">About Us</a></li>
+		  <li><a href="contact.htm">Contact</a></li>
+		</ul>
+	  </nav>
+	  <img src="Assets/Images/logo.png" alt="Eclipse 2024" id="logo"/>
+	  <br>Your source for information about the 2024 North American solar eclipse.
+	</header>
+	
+	<section id="main">
+	<div class="rows">
+	<div class="column">
+	<h1>Get in Touch</h1>
+	
+	<p>Have a question about eclipses or want us to add your event or resourse to the website?
+	Send us a message and we'll get back to you as soon as possible.</p>
+	</div>
+	<div class="column">
+	<form action="url" method="get">
+	  
+	  <label for="fname">First Name</label>
+	  <input name="fname" id="fname" type="text" required="required"/>
+	  </br>
+	  
+	  <label for="lname">Last Name</label>
+	  <input name="lname" id="lname" type="text" required="required"/>
+	  </br>
+	  
+	  <label for="phone">Phone</label>
+	  <input name="phone" id="phone" type="tel" required="required" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-}?\d{4}$"/>
+	  </br>
+	  
+	  <label for="email">Email</label>
+	  <input name="email" id="email" type="email" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+	  </br>
+	  
+	  <label for="comments">Comments</label>
+	  <textarea name="comments" id="comments" required="required" placeholder="Write a message."></textarea>
+	  </br>
+	  
+	  <input type="checkbox" id="newsletter" name="newsletter" />
+	  <label for="newsletter" id="newsletter">Send me a monthly newsletter about the eclipse!</label>
+	  
+	  </br>
+	  <input type="button" id="submit" value="Submit" onclick="formfun()"/>
+	  <input type="reset" value="Reset Form" />
+	  
+
+	
+	</form>
+	
+	</div>
+	</div>
+	</section>
+	
+	<footer>
+		<address>
+	    Eclipse 2024 &#183;
+		6238 Oakland Ave. 3W &#183;
+		St. Louis, MO 63139 &#183;
+		(217) 415-8886 &#183;
+		carterj.staley@gmail.com
+	  </address>
+	</footer>
+    
+	
+	
+  </body>
+  
+</html>

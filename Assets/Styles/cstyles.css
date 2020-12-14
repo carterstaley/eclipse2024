@@ -1,0 +1,77 @@
+/*
+  Eclipse 2024
+  
+  Author: Carter Staley
+  Date: 12/13/20
+  Filename: cstyles.css
+  Supporting Files:
+  
+*/
+
+
+
+/*Label Styles */
+label {
+	clear: left;
+	display: block;
+	float: left;
+	width: 40%;
+}
+/*Input control styles */
+input {
+	display: block;
+	float:left;
+	width: 50%;
+	margin-bottom: 12px;
+}
+
+textarea {
+	display: block;
+	float:left;
+	width: 50%;
+	margin-bottom: 12px;
+}
+
+/*Selection List Style */
+select {
+	display: block;
+	float: left;
+}
+
+label#newsletter {
+clear: none;
+width: auto;
+}
+
+input#newsletter{
+	clear: left;
+	width: 25px;
+}
+	
+
+/*Button Styles */
+input#submit {
+	clear: left;
+	margin-top: 12px;
+}
+
+input#submit, input[type="reset"] {
+	height: 40px;
+	margin-right: 20px;
+	width: 200px;
+}
+
+
+/*Page Layout Styles*/
+.rows {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+		flex: 1 0 250px;
+}
+
